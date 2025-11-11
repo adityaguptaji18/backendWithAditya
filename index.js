@@ -13,7 +13,7 @@ app.get('/aditya',(req,res)=>{
 app.get('/login',(req,res)=>{
  res.send('<h1>This is login page</h1>')
 })
-app.get('./message',(req,res)=>{
+app.get('/message',(req,res)=>{
   res.send('This is special message for you')
 })
 
