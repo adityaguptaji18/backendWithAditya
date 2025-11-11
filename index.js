@@ -13,6 +13,9 @@ app.get('/aditya',(req,res)=>{
 app.get('/login',(req,res)=>{
  res.send('<h1>This is login page</h1>')
 })
+app.get('./message',(req,res)=>{
+  res.send('This is special message for you')
+})
 
 app.listen(process.env.PORT, () => {
   console.log(`Example app listening on port ${process.env.PORT}`)
